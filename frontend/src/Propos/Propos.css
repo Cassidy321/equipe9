@@ -1,0 +1,37 @@
+.titlePropos { 
+    text-align: center; /* Centrer le texte */
+    margin-top: 50px; /* Espace au-dessus du titre */
+    margin-bottom: 20px; /* Espace en dessous */
+    width: 100%; /* Pleine largeur */
+    display: flex; /* Utiliser flexbox pour le conteneur du titre */
+    justify-content: center; /* Centrer le contenu */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .textPropos{
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding-left: 10px;
+
+}
+
+.image {
+    display: flex; /* Flexbox pour le conteneur d'image */
+    justify-content: flex-start; /* Aligner l'image à gauche */
+    margin-left: 20px; /* Ajoute un léger espace entre l'image et le bord gauche */
+}
+
+.image img {
+    width: 700px; /* Réduit davantage la largeur de l'image */
+    height: auto; /* Garde le ratio d'aspect de l'image pour éviter toute déformation */
+    border-radius: 10px; /* Optionnel : ajoute des coins arrondis à l'image */
+}
